@@ -12,7 +12,7 @@ const Item = ({plays,item,setPlays}) => {
             <h2>Name:{category}</h2>
             <p>Description : {des}</p>
             <p>Time : {time}</p>
-           
+
             <button onClick={()=>setPlays(plays + time)}>CLick</button>
         </div>
     );

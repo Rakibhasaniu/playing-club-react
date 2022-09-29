@@ -1,8 +1,9 @@
 .question-header{
     text-align: center;
-    background-color: blueviolet;
+    background-color: rgb(163, 145, 179);
     height: 70px;
     align-items: center;
+    
 }
 .ques h1{
     color: red;

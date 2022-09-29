@@ -88,11 +88,11 @@ const Items = () => {
               <div className='break'>
                 <h2>Add a break</h2>
                 <div className='btn'>
-                    <button onClick={()=>handleBreakTime(10)}>10s</button>
-                    <button onClick={()=>handleBreakTime(20)}>20s</button>
-                    <button onClick={()=>handleBreakTime(30)}>30s</button>
-                    <button onClick={()=>handleBreakTime(40)}>40s</button>
-                    <button onClick={()=>handleBreakTime(50)}>50s</button>
+                    <button onClick={()=>handleBreakTime(5)}>5m</button>
+                    <button onClick={()=>handleBreakTime(6)}>6m</button>
+                    <button onClick={()=>handleBreakTime(8)}>8m</button>
+                    <button onClick={()=>handleBreakTime(10)}>10m</button>
+                    <button onClick={()=>handleBreakTime(12)}>12m</button>
                 </div>
               </div>
 
@@ -100,12 +100,12 @@ const Items = () => {
                <div className='Ex-details'>
                  <h2>Exercise Details</h2>
                  <div className='time'>
-                    <h2>Time</h2>
-                    <p>{plays} seconds</p>
+                    <h2>Time Required</h2>
+                    <p>{plays} Min</p>
                  </div>
                  <div className="break-time">
                     <h2>Break Time</h2>
-                    <p>{breakTime} seconds</p>
+                    <p>{breakTime} min</p>
                  </div>
                </div>
 
