@@ -6,10 +6,6 @@ import Question from './Components/Question/Question';
 import Footer from './Components/Footer/Footer';
 
 
-
-
-
-
 function App() {
   
   return (

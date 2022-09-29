@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Item.css';
 
-const Item = (props) => {
+const Item = ({plays,item,setPlays}) => {
     // console.log(props.item);
-    const {id,category,time,img,des} = props.item;
-    const {btn} = props;
-    console.log(btn);
+    
+    const {id,category,time,img,des} = item;
+    // console.log(plays);
+    // const {btn} = props;
+    // console.log(btn);
     // const {btn} = props.item;
     // const addTime = (time) => {
     //     console.log( time);
@@ -18,7 +20,7 @@ const Item = (props) => {
             <p>Description : {des}</p>
             <p>Time : {time}</p>
             <p>ID:{id}</p>
-            <button onClick={()=>btn(props.item.time)}>CLick</button>
+            <button onClick={()=>setPlays(plays + time)}>CLick</button>
         </div>
     );
 };

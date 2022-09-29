@@ -7,9 +7,11 @@ const Items = () => {
 
     
     const [items , setItems] = useState([]);
-    const [exTime , setExTime] = useState(0);
+    // const [exTime , setExTime] = useState(0);
+    const [plays, setPlays] = useState(0);
+    const [times, setTimes] = useState(0);
     const [breakTime, setBreakTime] = useState();
-    // console.log(setExTime);
+    console.log(plays);
 
 
     const handleBreakTime = selectedBreakTime => {
@@ -31,10 +33,7 @@ const Items = () => {
     },[])
 
     
-    const addTime = (time) =>{
-      setExTime(exTime + parseInt(time))
-    // console.log(time);
-    }
+    
 
     const completeBtn = () =>{
         Swal.fire(
@@ -54,7 +53,8 @@ const Items = () => {
                     items.map(item => <Item
                         key={item.id}
                         item={item}
-                        
+                        setPlays={setPlays}
+                        plays={plays}
                         >
                         </Item>)      
                 }
@@ -101,7 +101,7 @@ const Items = () => {
                  <h2>Exercise Details</h2>
                  <div className='time'>
                     <h2>Time</h2>
-                    <p>{exTime} seconds</p>
+                    <p>{plays} seconds</p>
                  </div>
                  <div className="break-time">
                     <h2>Break Time</h2>
