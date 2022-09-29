@@ -8,6 +8,7 @@ const Items = () => {
     const [items , setItems] = useState([])
     const [exTime , setExTime] = useState(0);
     const [breakTime, setBreakTime] = useState();
+    // console.log(setExTime);
 
 
     const handleBreakTime = selectedBreakTime => {
@@ -30,7 +31,8 @@ const Items = () => {
 
     
     const addTime = (time) =>{
-      setExTime(exTime + parseInt(time))
+    //   setExTime(exTime + parseInt(time))
+    console.log(time);
     }
 
     
@@ -101,9 +103,9 @@ const Items = () => {
 
                <hr />
 
-               {/* <div>
-                 <button onClick={completeBtn} className='com-btn'>Activity Completed</button>
-               </div> */}
+               <div>
+                 <button  className='com-btn'>Activity Completed</button>
+               </div>
             </div>
         </div>
       

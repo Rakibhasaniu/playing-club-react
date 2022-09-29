@@ -1,7 +1,7 @@
 .item{
     height: 350px;
     width: 250px;
-    border-radius: 15px;
+    border-radius: 10px;
     border: 1px solid gray;
     /* box-shadow: 5px 4px 6px grey; */
     padding: 10px;
@@ -17,7 +17,7 @@
 }
 .item button{
     width: 100%;
-    color: red;
+    color: rgb(0, 204, 255)(0, 204, 255);
     background-color: rgb(202, 105, 105);
     border-radius: 5px;
     padding: 15px;
