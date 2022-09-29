@@ -5,7 +5,7 @@ import './Items.css';
 const Items = () => {
 
     
-    const [items , setItems] = useState([])
+    const [items , setItems] = useState([]);
     const [exTime , setExTime] = useState(0);
     const [breakTime, setBreakTime] = useState();
     // console.log(setExTime);
@@ -31,8 +31,8 @@ const Items = () => {
 
     
     const addTime = (time) =>{
-    //   setExTime(exTime + parseInt(time))
-    console.log(time);
+      setExTime(exTime + parseInt(time))
+    // console.log(time);
     }
 
     
@@ -47,11 +47,12 @@ const Items = () => {
                     items.map(item => <Item
                         key={item.id}
                         item={item}
+                        
                         >
                         </Item>)      
                 }
             </div> }
-            <div className='calculation-cart'>
+            <div className='cart'>
               <div className='info'>
                 {/* <img src="WhatsApp Image 2022-09-29 at 2.05.18 AM.jpeg" alt="" /> */}
                 <div>
@@ -92,7 +93,7 @@ const Items = () => {
                <div className='Ex-details'>
                  <h2>Exercise Details</h2>
                  <div className='time'>
-                    <h2>Exercise Time</h2>
+                    <h2>Time</h2>
                     <p>{exTime} seconds</p>
                  </div>
                  <div className="break-time">
@@ -104,7 +105,7 @@ const Items = () => {
                <hr />
 
                <div>
-                 <button  className='com-btn'>Activity Completed</button>
+                 <button  className='com-btn'>Completed</button>
                </div>
             </div>
         </div>

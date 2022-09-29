@@ -15,9 +15,10 @@ p{
     font-size: 18px;
     font-weight: 500;
 }
-.calculation-cart{
-    margin-top: -250px;
+.cart{
+    margin-top: -10px;
     background-image: linear-gradient(to top, #435bb0 0%, #330867 100%);
+    
     padding: 30px;
     border-radius: 20px;
 }
@@ -33,7 +34,7 @@ p{
     background-color: white;
     border-radius: 20px;
 }
-.calculation-cart .more-info{
+.cart .more-info{
     display: flex;
     justify-content: center;
     align-items: center;
