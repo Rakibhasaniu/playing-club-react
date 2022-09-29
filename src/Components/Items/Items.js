@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import Swal from 'sweetalert2'
-
 import Item from '../Item/Item';
 import './Items.css';
 
 const Items = () => {
 
-    const [items , setItems] = useState([]);
+    
+    const [items , setItems] = useState([])
     const [exTime , setExTime] = useState(0);
     const [breakTime, setBreakTime] = useState();
 
@@ -23,8 +22,9 @@ const Items = () => {
 
 
     useEffect(()=>{
-        fetch('fakeData.json')
+        fetch('data.json')
         .then(res => res.json())
+        // .then(data => setItems(data))
         .then(data => setItems(data))
     },[])
 
@@ -33,45 +33,39 @@ const Items = () => {
       setExTime(exTime + parseInt(time))
     }
 
-    const completeBtn = () =>{
-      Swal.fire(
-        'Good job!',
-        'You clicked the button!',
-        'success'
-      )
-    }
+    
  
     
 
     return (
         <div className='container'>
            
-            <div className='all-items'>
+            { <div className='all-items'>
                 {
                     items.map(item => <Item
                         key={item.id}
                         item={item}
-                        btn={addTime}>
+                        >
                         </Item>)      
                 }
-            </div>
+            </div> }
             <div className='calculation-cart'>
               <div className='info'>
                 <img src="WhatsApp Image 2022-09-29 at 2.05.18 AM.jpeg" alt="" />
                 <div>
-                    <p>Kamrul Hasan</p>
-                    <p>Sadarghat,Chittagong</p>
+                    <p>Rakib hasan</p>
+                    <p>Dupchancia,Bogura</p>
                 </div>
               </div>
 
               <div className='more-info'>
                 <div>
                   <p>Weight</p>
-                  <p>70kg</p>
+                  <p>53kg</p>
                 </div>
                 <div>
                   <p>Height</p>
-                  <p>6 feet</p>
+                  <p>5.7 feet</p>
                 </div>
                 <div>
                   <p>Age</p>
@@ -107,9 +101,9 @@ const Items = () => {
 
                <hr />
 
-               <div>
+               {/* <div>
                  <button onClick={completeBtn} className='com-btn'>Activity Completed</button>
-               </div>
+               </div> */}
             </div>
         </div>
       

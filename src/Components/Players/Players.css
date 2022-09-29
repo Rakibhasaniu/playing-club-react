@@ -1,8 +1,0 @@
-.single{
-    display: grid;
-    grid-template-columns: repeat(3, 2fr);
-    /* margin-left: 50px; */
-    background-color:rgba(0,128,0,.148);
-    padding: 10px;
-    /* gap: 10px; */
-}

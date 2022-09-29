@@ -1,9 +1,0 @@
-.home-container{
-    text-align: center;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    margin-left: 50px;
-}
-.cart{
-    background-color:  rgba(0, 128, 0, 0.127);
-}
