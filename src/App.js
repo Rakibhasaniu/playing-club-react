@@ -1,11 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-import Playings from './Components/Playings/Playings';
+import Navbar from './Components/Navbar/Navbar';
+import Home from './Components/Home/Home';
+
+
+
 
 function App() {
+  
   return (
     <div>
-      <Playings></Playings>
+      <Navbar></Navbar>
+      <Home></Home>
     </div>
   );
 }
