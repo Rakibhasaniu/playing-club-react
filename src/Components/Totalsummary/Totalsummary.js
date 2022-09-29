@@ -10,8 +10,8 @@ const Totalsummary = () => {
             <h3>Add Break On Playing</h3>
             <Break></Break>
             <h3>Playing Plan</h3>
-            <h4>Total Time:</h4>
-            <h4>Break Adeed:</h4>
+            <h4>Total Time:{}</h4>
+            <h4>Break Adeed:{}</h4>
             <div className="btn-div">
                 <button className="btn-execute">Execute</button>
             </div>
