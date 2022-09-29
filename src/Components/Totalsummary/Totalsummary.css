@@ -1,0 +1,30 @@
+.total-summary {
+    background-color: rgba(0, 128, 0, 0.148);
+    position: sticky;
+    top: 0px;
+    height: 100vh;
+}
+.total-summary h4 {
+    background-color: rgba(0, 128, 0, 0.127);
+    border-radius: 10px;
+    height: 25px;
+    padding: 5px 20px;
+}
+.btn-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-execute {
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: darkgreen;
+    margin-top: 20px;
+    color: white;
+    font-size: 16px;
+}
+.btn-execute:hover {
+    background-color: rgb(39, 92, 39);
+    color: rgb(236, 154, 154);
+    font-size: 17px;
+}

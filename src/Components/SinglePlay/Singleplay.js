@@ -1,9 +1,19 @@
 import React from 'react';
+import './Singleplay.css'
 
-const Singleplay = () => {
+const Singleplay = (props) => {
+    const {img, des, time, category} = props.singleplay;
     return (
         <div>
-            <h1>i akjhui</h1>
+            
+              <div className='card'>
+                <img src={img} alt="" />
+                <h2>Category:{category}</h2>
+                <p>Des:{des}</p>
+                <p>Time:{time}</p>
+                <button className='btn'>Click</button>
+            </div>
+            
         </div>
     );
 };

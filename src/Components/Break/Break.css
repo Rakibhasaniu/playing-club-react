@@ -1,0 +1,19 @@
+.break {
+    background-color: rgba(0, 128, 0, 0.127);
+    height: 80px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.break button {
+    display: inline;
+    margin: 10px 2px;
+    padding: 3px 5px;
+}
+
+.break button:hover {
+    background-color: green;
+    color: white;
+}
