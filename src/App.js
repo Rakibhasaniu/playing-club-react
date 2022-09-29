@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <div className='home'>
-      
+      <Navbar></Navbar>
       <Items></Items>
       <Question></Question>
       <Footer></Footer>

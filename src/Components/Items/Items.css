@@ -16,14 +16,13 @@ p{
     font-weight: 500;
 }
 .cart{
-    margin-top: -10px;
-    background-image: linear-gradient(to top, #435bb0 0%, #330867 100%);
-    
+    margin-top: -180px;
+    background-image: linear-gradient(to top, #c0c5d7 0%, #433752 100%); 
     padding: 30px;
     border-radius: 20px;
 }
 .info img{
-    width: 80px;
+    width: 90%;
     height: 100px;
     border-radius: 50px;
     margin-right: -50px;

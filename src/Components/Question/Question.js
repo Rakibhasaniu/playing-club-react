@@ -7,11 +7,11 @@ const Question = () => {
             <div className='question-header'>
                 <h1>Question Answer</h1>
             </div>
-            <div className='ques1'>
+            <div className='quesone'>
                 <h2>Question 1 : How does react work??</h2>
                 <p>React uses a declarative paradigm that makes it easier to reason about your application and aims to be both efficient and flexible. It designs simple views for each state in your application, and React will efficiently update and render just the right component when your data changes</p>
             </div>
-            <div className='ques2'>
+            <div className='questwo'>
                 <h2>Question 2 : Difference between props and state??</h2>
                 <p>
                     PROPS: <br />
@@ -34,7 +34,7 @@ const Question = () => {
                 The this.setState property is used to update the state values in the component.
                 </p>
             </div>
-            <div className='ques3'>
+            <div className='questhree'>
                 <h2>Question 3 : What does useEffect do without data load??</h2>
                 <p>
                     1. Reading from local storage. <br />

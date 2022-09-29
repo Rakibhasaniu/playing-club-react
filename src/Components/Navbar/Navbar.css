@@ -1,6 +1,14 @@
-.hhh{
-    /* padding: 10px 15px; */
-    background-color: blueviolet;
-    padding: 15px;
-    text-align: center;
+.nav{
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    margin-top: 20px;
 }
+.nav h1{
+    margin-left: 20px;
+    color: tomato;
+    font-size: 40px;
+}
+/* .icon{
+    font-size: 40px;
+} */
