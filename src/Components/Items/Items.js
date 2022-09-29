@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Item from '../Item/Item';
 import './Items.css';
+import Swal from 'sweetalert2'
 
 const Items = () => {
 
@@ -35,7 +36,13 @@ const Items = () => {
     // console.log(time);
     }
 
-    
+    const completeBtn = () =>{
+        Swal.fire(
+          'Good job!',
+          'You clicked the button!',
+          'success'
+        )
+      }
  
     
 
@@ -105,7 +112,7 @@ const Items = () => {
                <hr />
 
                <div>
-                 <button  className='com-btn'>Completed</button>
+                 <button  onClick={completeBtn} className='com-btn'>Completed</button>
                </div>
             </div>
         </div>
