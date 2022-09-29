@@ -51,7 +51,7 @@ const Items = () => {
             </div> }
             <div className='calculation-cart'>
               <div className='info'>
-                <img src="WhatsApp Image 2022-09-29 at 2.05.18 AM.jpeg" alt="" />
+                {/* <img src="WhatsApp Image 2022-09-29 at 2.05.18 AM.jpeg" alt="" /> */}
                 <div>
                     <p>Rakib hasan</p>
                     <p>Dupchancia,Bogura</p>
