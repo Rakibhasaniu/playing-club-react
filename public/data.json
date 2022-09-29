@@ -1,0 +1,44 @@
+[
+    {
+      "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+      "category": "Football",
+      "des": "The sport of association football is commonly called soccer in the United States. The word derives from association – as in the Football Association – in contrast to rugger, or rugby football.",
+      "time": 90,
+      "img": "https://images.app.goo.gl/eC1UUhdVVhfq2Gr9A"
+    },
+    {
+      "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+      "category": "Cricket",
+      "des": "A typical Cricket game has 11 players in each team. It is fundamentally very similar to baseball. It is played with a bat and a ball. The center of the field is a rectangular area of 22 meters called a pitch.",
+      "time": 120,
+      "img": "https://images.app.goo.gl/SqguwMCHhk7r2c5m6"
+    },
+    {
+      "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+      "category": "Badminton",
+      "des": "badminton, court or lawn game played with lightweight rackets and a shuttlecock. Historically, the shuttlecock (also known as a “bird” or “birdie”) was a small cork hemisphere with 16 goose feathers attached and weighing about 0.17 ounce (5 grams)",
+      "time": 30,
+      "img": "https://images.app.goo.gl/pTYeQPY6koZpzqtZ6"
+    },
+    {
+      "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+      "category": "Handball",
+      "des": "Handball is a team sport in which two teams of seven players each pass a ball using their hands with the aim of throwing it into the goal of the other team.",
+      "time": 90,
+      "img": "https://images.app.goo.gl/xUzrPP3tvS1JC9KEA"
+    },
+    {
+      "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+      "category": "Basketball",
+      "des": "Basketball is a team sport ; Players advance the ball by bouncing it while walking or running (dribbling) or by passing it to a teammate, both of which require ....",
+      "time": 90,
+      "img": "https://images.app.goo.gl/c1iyckc2SgJ7p95t9"
+    },
+    {
+      "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+      "category": "Table Tennis",
+      "des": "Table tennis, also known as ping-pong and whiff-whaff, is a sport in which two or four players hit a lightweight ball, also known as the ping-pong ball...",
+      "time": 90,
+      "img": "https://images.app.goo.gl/gULVcWoc67o6TxAv7"
+    }
+  ]
